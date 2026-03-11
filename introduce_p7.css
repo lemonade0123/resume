@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#D3E9FF;
+    font-family:"Gowun Dodum", sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.page{
+    position:relative;
+    width:1280px;
+    height:720px;
+}
+
+p{
+    font-size:30px;
+    font-weight:300;
+    color:black;
+}
+
+.info_area{
+    background: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 200px;
+}
+
+.nametag{
+    position:absolute;
+    top:50px;
+    left:50%;
+    transform:translateX(-50%);
+    width:1400px;
+    height:600px;
+    background:white;
+    border-radius:30px;
+}
+
+.nametag_shadow{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1400px;
+    height: 630px;
+    background: #C0D6EE;
+    border-radius: 30px;
+}
+
+.nametag_circle{
+    position:absolute;
+    top:30px;
+    left:30px;
+    width:30px;
+    height:30px;
+    background: #D3E9FF;
+    border-radius:50%;
+}
+
+.nametag_text{
+    position:absolute;
+    top:80px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:80px;
+    font-weight:600;
+    color:#6B89A8;
+}
+
+.nametag_text2{
+    position:absolute;
+    top:260px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:50px;
+    font-weight:600;
+    color:#6B89A8;
+}
+
+.nametag_square{
+    position:absolute;
+    top: 140px;
+    left: 50%;
+    transform:translateX(-50%);
+    width:420px;
+    height:60px;
+    background:#D3E9FF;
+}
